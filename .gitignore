@@ -1,6 +1,9 @@
 .vagrant
 cookbooks
 
+/log/*
+/tmp/*
+
 # Mac finder artifacts
 .DS_Store
 
