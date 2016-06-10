@@ -1,0 +1,37 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apt (2.4.0)
+    build-essential (2.0.4)
+    chef_handler (1.1.6)
+    dmg (2.2.0)
+    git (4.0.2)
+      build-essential (>= 0.0.0)
+      dmg (>= 0.0.0)
+      runit (>= 1.0.0)
+      windows (>= 0.0.0)
+      yum (~> 3.0)
+      yum-epel (>= 0.0.0)
+    mongodb (0.16.1)
+      apt (>= 1.8.2)
+      python (>= 0.0.0)
+      runit (>= 1.5.0)
+      yum (>= 3.0)
+    python (1.4.6)
+      build-essential (>= 0.0.0)
+      yum-epel (>= 0.0.0)
+    runit (1.5.10)
+      build-essential (>= 0.0.0)
+      yum (~> 3.0)
+      yum-epel (>= 0.0.0)
+    windows (1.31.0)
+      chef_handler (>= 0.0.0)
+    yum (3.2.2)
+    yum-epel (0.3.6)
+      yum (~> 3.0)
+
+DEPENDENCIES
+  apt (>= 0)
+  git (>= 0)
+  mongodb (>= 0)
+
